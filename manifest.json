@@ -1,0 +1,34 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "ui custom",
+        "description": "ui custom behavior pack",
+        "uuid": "4bf50451-8da6-df84-0873-79ac9595a70c",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 19, 60 ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "29e37250-e48d-b314-511a-1d45cbd9fd37",
+            "version": [ 1, 0, 0 ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "bf73b105-7192-d299-e98e-6ff4097e2637",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.7.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+             "version": "1.1.0"
+        }
+    ]
+}
